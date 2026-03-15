@@ -1,0 +1,95 @@
+/* Page background */
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg,#667eea,#764ba2);
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* Main Todo container */
+.todo-container{
+  background:white;
+  padding:30px;
+  width:400px;
+  border-radius:10px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+  text-align:center;
+}
+
+/* Title */
+h1{
+  margin-bottom:20px;
+}
+
+/* Input section */
+.todo-input{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+.todo-input input{
+  flex:1;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+.todo-input button{
+  padding:10px 15px;
+  border:none;
+  background:#667eea;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+/* Task list */
+.todo-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+/* Individual task */
+.todo-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px;
+  border-bottom:1px solid #eee;
+}
+
+/* Completed task style */
+.completed{
+  text-decoration:line-through;
+  color:gray;
+}
+
+/* Delete button */
+.delete-btn{
+  background:red;
+  color:white;
+  border:none;
+  padding:5px 10px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+/* Filter buttons */
+.filter-buttons{
+  margin-bottom:15px;
+}
+
+.filter-buttons button{
+  margin:5px;
+  padding:8px 12px;
+  border:none;
+  background:#764ba2;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
